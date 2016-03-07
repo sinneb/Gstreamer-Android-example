@@ -3,7 +3,7 @@ Here is a new version of the tutorial-5 example using a more up to date toolset.
 
 1. Download and install the 1.7.90 (https://gstreamer.freedesktop.org/data/pkg/android/) gstreamer Android package
 2. Download and install the Android NDK release r10e
-3. Grab Android Studio 2.0 beta 6 and open project
+3. Grab Android Studio 2.0 beta 6 and open project (Android Studio throws an internal IDE error regarding Gradle version conflict)
 4. Set ndk.dir in Gradle local.properties to the r10e installation
 5. Point GSTREAMER_ROOT_ANDROID in Android.mk to the gstreamer installation
 6. Run
